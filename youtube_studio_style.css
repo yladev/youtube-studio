@@ -1,0 +1,154 @@
+body {
+	font-family: 'Roboto',ital,wght;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #F4F4F4;
+}
+
+/* First column */
+.column {
+	width: 370px;
+	margin: 20px;
+}
+
+.box {
+    padding: 20px ;	
+	border-radius: 5px;
+	background-color: white;
+}
+
+.boxTitle {
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+.thumbnail {
+	width: 100%;
+	margin-top: -40px;
+}
+
+.thumbnailContainer {
+	height: 255px;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+
+.performance {
+	opacity: 0.5;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+.statContainer {
+	margin-bottom: 16px;
+}
+
+.stat {
+	display: flex;	
+	justify-content: space-between;
+	padding: 8px 0px;
+	font-size: 15px;
+}
+
+.link {
+	color: #1C5FD4;
+}
+
+.comments {
+	margin-top: 12px;
+}
+
+/* Second column */
+.secondColumnTitle {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.fa-arrow-left-long {
+	margin-right: 20px;
+}
+
+.secondColumnImage {
+	width: 100%;
+	margin-top: 1px;
+	margin-bottom: 12px;
+	border-radius: 4px;
+}
+
+.AboutMaySan {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 0px;
+	font-size: 15px;
+}
+
+.Currentsubscribers {
+	font-size: 15px;
+}
+
+/* Third Column  */
+.subscribersCount {
+	font-size: 34px;
+}
+
+.Number {
+	color: green;
+	font-size: 15px;
+}
+
+.days {
+	opacity: 0.5;
+	font-size: 15px;
+}
+
+.divider {
+	height: 1px;
+	margin: 25px 0px;
+	background-color: lightgray;
+}
+
+.summaryContainer {
+	margin-bottom: 10px;
+}
+
+.summary {
+	margin-bottom: 5px;
+}
+
+.JA {
+	display: flex;
+	justify-content: space-between;
+    font-size: 15px;
+    padding: 5px 0px;
+}
+
+.Views {
+	opacity: 0.5;
+	font-size: 15px;
+}
+
+.playList {
+	display: flex;
+	font-size: 15px;
+	padding: 5px 0px;
+	justify-content: space-between;
+}
+
+.overflowEllipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.ffac {
+	color: purple;
+	margin-left: 10px;
+}
+
